@@ -15,3 +15,18 @@ class JSONField(fields.Field):
             return None
         else:
             return Json(value, dumps=lambda x: json.dumps(x, separators=(",", ":")))
+
+    def convert_to_cache(self, value, record, validate=True):
+        if not value:
+            return "[]"
+        if isinstance(value, dict):
+            return json.dumps(value, separators=(",", ":"))
+        return value
+
+    def convert_to_read(self, value, record, use_name_get=True):
+        if not value:
+            return []
+        elif isinstance(value, str):
+            return json.loads(value)
+        else:
+            return value
