@@ -19,7 +19,7 @@ class JSONField(fields.Field):
     def convert_to_cache(self, value, record, validate=True):
         if not value:
             return "[]"
-        if isinstance(value, dict):
+        if isinstance(value, dict) or isinstance(value, list):
             return json.dumps(value, separators=(",", ":"))
         return value
 
