@@ -1,10 +1,10 @@
 {
-    "name": "G2P: JSON Field",
+    "name": "G2P: Encryption",
     "category": "G2P",
     "version": "15.0.1.1.0",
     "sequence": 1,
     "author": "OpenG2P",
-    "website": "https://github.com/OpenG2P/odoo-json-field",
+    "website": "https://github.com/OpenG2P/openg2p-security",
     "license": "Other OSI approved licence",
     "development_status": "Alpha",
     "depends": [],

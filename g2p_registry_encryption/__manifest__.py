@@ -1,0 +1,21 @@
+{
+    "name": "G2P:Registry Encryption",
+    "category": "G2P",
+    "version": "15.0.1.1.0",
+    "sequence": 1,
+    "author": "OpenG2P",
+    "website": "https://github.com/OpenG2P/odoo-json-field",
+    "license": "Other OSI approved licence",
+    "development_status": "Alpha",
+    "depends": ['g2p_encryption'],
+    "data": [],
+    "assets": {
+        "web.assets_backend": [],
+        "web.assets_qweb": [],
+    },
+    "demo": [],
+    "images": [],
+    "application": False,
+    "installable": True,
+    "auto_install": False,
+}
