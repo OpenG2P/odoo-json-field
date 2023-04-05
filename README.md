@@ -7,9 +7,9 @@
 
 <!-- /!\ do not modify above this line -->
 
-# OpenG2P Registry Encryption
+# Odoo JSON Field
 
-Basic PyCrypto based encryption for OpenG2P Registry PII Info's
+PostgreSQL JSON Field Type for Odoo
 
 <!-- /!\ do not modify below this line -->
 
@@ -21,7 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[openg2p-security](g2p_registry_encryption/) | 15.0.1.0.0 |  | G2P Encryption: Registry
+[g2p_json_field](g2p_json_field/) | 15.0.1.1.0 |  | G2P: JSON Field
 
 [//]: # (end addons)
 
