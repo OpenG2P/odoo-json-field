@@ -21,7 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[g2p_json_field](g2p_json_field/) | 15.0.1.1.0 |  | G2P: JSON Field
+[g2p_json_field](g2p_json_field/) | 15.0.1.2.0 |  | G2P: JSON Field
 
 [//]: # (end addons)
 
