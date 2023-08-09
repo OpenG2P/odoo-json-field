@@ -16,12 +16,12 @@ class JSONField(fields.Field):
         else:
             return Json(value, dumps=lambda x: json.dumps(x, separators=(",", ":")))
 
-    def convert_to_cache(self, value, record, validate=True):
-        if not value:
-            return "[]"
-        if isinstance(value, dict) or isinstance(value, list):
-            return json.dumps(value, separators=(",", ":"))
-        return value
+    # def convert_to_cache(self, value, record, validate=True):
+    #     if not value:
+    #         return "[]"
+    #     if isinstance(value, dict) or isinstance(value, list):
+    #         return json.dumps(value, separators=(",", ":"))
+    #     return value
 
     def convert_to_read(self, value, record, use_name_get=True):
         if not value:

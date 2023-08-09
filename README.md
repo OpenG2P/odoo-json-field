@@ -1,15 +1,9 @@
 
-<!-- /!\ Non OCA Context : Set here the badge of your runbot / runboat instance. -->
-[![Pre-commit Status](https://github.com/OpenG2P/odoo-json-field/actions/workflows/pre-commit.yml/badge.svg?branch=15.0)](https://github.com/OpenG2P/odoo-json-field/actions/workflows/pre-commit.yml?query=branch%3A15.0)
-[![Build Status](https://github.com/OpenG2P/odoo-json-field/actions/workflows/test.yml/badge.svg?branch=15.0)](https://github.com/OpenG2P/odoo-json-field/actions/workflows/test.yml?query=branch%3A15.0)
-[![codecov](https://codecov.io/gh/OpenG2P/odoo-json-field/branch/15.0/graph/badge.svg)](https://codecov.io/gh/OpenG2P/odoo-json-field)
-<!-- /!\ Non OCA Context : Set here the badge of your translation instance. -->
-
 <!-- /!\ do not modify above this line -->
 
 # Odoo JSON Field
 
-PostgreSQL JSON Field Type for Odoo
+PostgreSQL JSON Field Type for Odoo. Refer to [OpenG2P Docs](https://docs.openg2p.org/v/1.1).
 
 <!-- /!\ do not modify below this line -->
 
@@ -29,7 +23,7 @@ addon | version | maintainers | summary
 
 ## Licenses
 
-This repository is licensed under [MPL-3.0](LICENSE).
+This repository is licensed under [MPL-2.0](LICENSE).
 
 However, each module can have a totally different license, as long as they adhere to OpenG2P
 policy. Consult each module's `__manifest__.py` file, which contains a `license` key
