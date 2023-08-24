@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <div t-name="CharFieldTagsReadOnly">
+        <t t-foreach="tags" t-as="tag">
+            <div t-att-class="tagClassFunction(tag)" t-att-data-index="tag_index">
+                <span class="o_badge_text" t-att-title="tag" t-esc="tag" />
+            </div>
+        </t>
+    </div>
+</templates>
