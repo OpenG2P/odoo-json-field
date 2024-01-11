@@ -1,7 +1,7 @@
 {
     "name": "G2P: JSON Field",
     "category": "G2P",
-    "version": "15.0.1.2.0",
+    "version": "17.0.1.0.0",
     "sequence": 1,
     "author": "OpenG2P",
     "website": "https://openg2p.org",
@@ -11,7 +11,6 @@
     "data": [],
     "assets": {
         "web.assets_backend": [],
-        "web.assets_qweb": [],
     },
     "demo": [],
     "images": [],
